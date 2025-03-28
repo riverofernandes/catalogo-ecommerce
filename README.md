@@ -36,6 +36,10 @@ php artisan key:generate
 ```sh
 php artisan migrate ou sail artisan migrate
 ```
+caso queirar popular o banco com alguns produtos 
+```sh
+php artisan db:seed --class=ProductSeeder ou sail artisan db:seed --class=ProductSeeder
+```
 
 ### **7 Rodar o Servidor** (Opcional)
 ```sh
